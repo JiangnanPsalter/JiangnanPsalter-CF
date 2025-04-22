@@ -65,5 +65,4 @@ class Mentor:
 > "那个在算法竞赛里，永远比我多算一步的师父。"  
 > —— 不是`.gitignore`的例外，而是`LD_PRELOAD`的必然  
 
-[![Star History](https://api.star-history.com/svg?repos=JiangnanPsalter/JiangnanPsalter-CF&type=Date)](https://github.com/jiangnanpsalter/JiangnanPsalter-CF)  
-
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JiangnanPsalter&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=6" />
