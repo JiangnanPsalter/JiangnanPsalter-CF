@@ -8,9 +8,9 @@ int main()
     cin >> T;
     while (T -- ) {
         cin >> a >> b >> c;
-        if (a < abs(b - c) + c) cout << 1 << endl;
         if (a > abs(b - c) + c) cout << 2 << endl;
-        if (a == abs(b - c) + c) cout << 3 << endl;
+        else if (a == abs(b - c) + c) cout << 3 << endl;
+        else cout << 1 << endl;
     }
     return 0;
 }
