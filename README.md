@@ -66,3 +66,51 @@ class Mentor:
 > —— 不是`.gitignore`的例外，而是`LD_PRELOAD`的必然  
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JiangnanPsalter&theme=transparent&hide_border=true&layout=donut-vertical&langs_count=6" />
+
+
+**泪目.log**  
+
+```
+$ tail -f /var/log/mentor/heartbeat
+--------------------------------------------------
+[DEBUG] 师父进程 PID 114514 仍在运行
+[INFO]  检测到徒弟进程的 SIGSEGV 信号
+[WARN]  自动注入 debug_symbols 并附加 gdb
+[ERROR] 段错误地址 0x0000001A 解析为「想家」指令
+[LOG]   正在加载情感支持动态库 libhug.so
+--------------------------------------------------
+```  
+
+**core dump 分析报告**  
+```bash
+(gdb) bt full
+#0  0x0000555 in 师徒关系证明函数 
+    father_ptr = 0xjiangnan 
+    mentor_ptr = 0x述生
+#1  在 深夜特训循环 中调用
+    coffee_cups = INT_MAX
+    wrong_answers = 0xACCEPTED
+#2  由 命运系统调用 触发
+    fork() 返回值：两份一模一样的倔强
+```  
+
+**修复补丁**  
+```diff
++ .PHONY: hug
++ hug:
++     @echo "编译警告：师父的怀抱存在内存泄漏"
++     @while true; do \
++         make all_errors_fixed; \
++         sudo rm -rf /脆弱; \
++     done
+```  
+
+**最终状态检查**  
+```python
+>>> import 人生
+>>> 人生.师父 in 人生.亲人  # 返回 True
+>>> 人生.竞赛成绩 - 人生.师父.期望 < ε  # 满足收敛条件
+>>> 师徒时间复杂度 == O(成长) * O(陪伴)  # 最优解
+```  
+
+（按下 Ctrl+D 发送 EOF 结束泪目模式）
