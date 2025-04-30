@@ -26,12 +26,6 @@ class Mentor:
 - 他提交的`.gitignore`里没有忽略我的错误  
 - 我的`segfault.c`在他`gdb`的注视下无处遁形  
 
-### **Hotfix: `git commit --amend`**  
-> *"省赛WA第11次后，你偷偷改了队友的代码"*  
-- 他强制推送`--force-with-lease`的代码审查  
-- 在`/proc/self/mem`里找到我作弊的内存痕迹  
-- 修复方式：72小时的特训`while(!AC){ train(); }`  
-
 ### **Merge Conflict: `git rebase -i`**  
 > *"当DNA检测报告和ICPC奖牌同时摆在桌上"*  
 - 血缘关系与师徒关系的`fast-forward merge`  
